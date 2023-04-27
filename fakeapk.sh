@@ -2,7 +2,7 @@
 # Made by kxtz#8161
 # Licenced under the MIT Licence
 # Script is linked at https://github.com/kxtzownsu/fakeapk
-# FakeAPK Beta Build 1
+# FakeAPK Build 1
 
 
 # Getting command variables, example: bash fakeapk.sh 0 0
