@@ -5,7 +5,7 @@ FakeAPK is a tool made by kxtz#8161 to allow you to run APKs while using [fakemu
 
 While in [fakemurk](https://github.com/MercuryWorkshop/fakemurk), go to a root shell in mush and run the following commands:
 ```
-sudo bash <(curl -SLk https://github.com/clockworkindustries/fakeapk/releases/latest/download/fakeapk.sh)
+sudo curl -LOk https://raw.githubusercontent.com/clockworkindustries/FakeAPK/main/fakeapk.sh && sudo bash fakeapk.sh
 ```
 
 # FAQ
