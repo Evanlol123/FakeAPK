@@ -21,7 +21,7 @@ else
   echo "FakeAPK.Verbose.Disabled.Message"
 fi
 
-traps() {
+apktraps() {
     set -e
     trap 'last_command=$current_command; current_command=$BASH_COMMAND' DEBUG
     trap 'echo "\"${last_command}\" command failed with exit code $?. THIS IS A BUG, REPORT IT HERE https://github.com/clockworkindustries/fakeapk"' EXIT
@@ -84,13 +84,13 @@ EOF
 
 echo "Press enter to go back."
 read lollllll
-main
+apkmain
 
 }
 
 
-main() {
-  traps
+apkmain() {
+  apktraps
   ascii_logo
   echo "--- Select an option ---"
   echo "1) Enable FakeAPK       "
@@ -109,4 +109,4 @@ main() {
   fi
 }
 
-main
+apkmain
